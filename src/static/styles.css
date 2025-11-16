@@ -142,3 +142,60 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants styles */
+.participants-container {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 14px;
+}
+
+.participants {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  max-height: 160px;
+  overflow: auto;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  border: 1px solid #f0f0f0;
+}
+
+.participants li {
+  padding: 6px 0;
+  border-bottom: 1px dotted #eee;
+  font-size: 14px;
+  color: #444;
+}
+
+.participants li:last-child {
+  border-bottom: none;
+}
+
+.participants li.no-participants {
+  color: #888;
+  font-style: italic;
+  list-style: none;
+  padding: 6px 0;
+}
+
+/* Remove button next to participant */
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+  padding: 2px 6px;
+}
+.participant-remove:hover {
+  color: #b71c1c;
+}
